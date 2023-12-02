@@ -2333,7 +2333,7 @@ hr:before {
     top: -12px;
     left: 0;
     content: "";
-    border: 8px solid #2f3031;
+    border: 8px solid #adadad;
     width: 66px;
     height: 66px;
     border-radius: 100%;
