@@ -894,7 +894,7 @@ header {
     align-items: center;
     justify-content: center;
     align-content: center;
-    margin-top: 20px;
+    margin-top: 0px;
     background: #F4F5F6;
     padding-top: 20px;
     margin-bottom: 0px;
@@ -2622,5 +2622,21 @@ hr:before {
 
 .upbtn:hover {
     transform: rotate(45deg);
+}
+
+.parallax {
+    background-image: url("img/bg-parallax.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 /*--- END of (Main section) ---*/
