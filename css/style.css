@@ -214,10 +214,11 @@ header {
 .header-nav_menu>ul>li>a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .header-nav_menu>ul>li>a:hover {
+    font-weight: bold;
     text-decoration: underline;
     color: var(--color-bg);
 }
@@ -326,6 +327,10 @@ header {
     font-size: 11px;
     line-height: 15px;
     color: #ccc;
+}
+.btn-section_btn-submit-app > a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .btn-section_btn-submit-app:hover {
@@ -2740,6 +2745,9 @@ hr:before {
 .btn-section_btn > a:hover {
     color: #fff;
 }
+
+
+
 
 
 /*--- END of (Main section) ---*/
