@@ -184,6 +184,13 @@
 
   /*--- @MEDIA SCREEN 768px ---*/
   @media screen and (max-width: 768px) {
+    .header-nav_contacts_section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
     .header-nav_menu>ul>li>a {
         margin-bottom: 0px;
         font-size: 10px;
@@ -204,6 +211,10 @@
         width: 20px;
     }
 
+    .header-banner__content {
+        margin-left: 54px;
+        margin-top: 30px;
+    }
     .header-banner__content>h1 {
         font-size: 18px;
         margin-block-end: 0px;
@@ -223,7 +234,7 @@
     }
 
     .header-banner__content {
-        margin-top: 100px;
+        margin-top: 0px;
     }
     .form-content-block .form-content_text>p {
         font-size: 16px;
@@ -263,6 +274,71 @@
         flex-direction: column;
         margin-top: 20px;
         margin-left: 30px;
+    }
+
+    .header-nav_menu {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: -140px;
+      }
+      .contacts_section_btn {
+        margin-left: 15px;
+        margin-right: 50px;
+      }
+      .header-nav_menu > ul > li:last-child {
+        margin-right: 25.36px;
+      }
+      .menu-button-container {
+        display: flex;
+      }
+        .menu-button-container {
+        display: flex;
+      }
+      .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 80px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      #menu-toggle ~ .menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      #menu-toggle:checked ~ .menu li {
+        border: 1px solid #333;
+        height: 3.5em;
+        padding: 1.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .menu > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        color: white;
+        background-color: #fff;
+      }
+      .menu > li:not(:last-child) {
+        border-bottom: 1px solid #444;
+      }
+      .header-nav_menu > ul > li:not(:first-child) {
+        margin-left: 14.09px;
+      }
+      .header-nav_menu > ul > li:last-child {
+        margin-right: 35.36px;
+      }
+
+      .header-nav_brand>a {
+        text-decoration: none;
+        display: none;
     }
   } 
    /*--- @MEDIA SCREEN 768px ---*/
