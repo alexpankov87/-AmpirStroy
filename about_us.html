@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tabletscreen.css">
     <title>Ampir Stroy - Строительная компания</title>
 </head>
 <body>
     <section class="grid-section">
         <header>
-            <nav class="header-nav container navbar">
+            <nav class="header-nav container navbar  animated slideInDown">
                 <!--navigation logo-brand section-->
                 <a href="index.html" class="logotype1" title="Строительная компания">
                     <div><b>Ampir</b> Stroy</div>
@@ -212,16 +214,16 @@
                     </div>
                     <form action=""  method="post" class="form-feedback">
                         <div class="name-input">
-                            <label for="feedback-name">Имя</label>
-                            <input required type="text" id="feedback-name" placeholder="Введите ваши данные:">
+                            <label for="feedback-name">Имя:</label>
+                            <input required type="text" id="feedback-name" placeholder="Введите ваши данные">
                         </div>
                         <div class="phone-input">
-                            <label for="feedback-phone">Телефон</label>
-                            <input required type="text" id="feedback-phone" placeholder="Введите ваш номер:">
+                            <label for="feedback-phone">Телефон:</label>
+                            <input required type="text" id="feedback-phone" placeholder="Введите ваш номер">
                         </div>
                         <div class="email-input">
-                            <label for="feedback-email">E-mail</label>
-                            <input type="email" name="" id="feedback-email" placeholder="Введите ваш e-mail:">
+                            <label for="feedback-email">E-mail:</label>
+                            <input type="email" name="" id="feedback-email" placeholder="Введите ваш e-mail">
                         </div>
                         <label for="feedback-checkbox" class="form-feedback-container-checkbox">
                             <input type="checkbox" checked="checked" name="" id="feedback-checkbox">
@@ -321,31 +323,7 @@
             </nav>
         </footer>
     </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        $('body').append('<div class="upbtn"></div>');
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-                $('.upbtn').css({
-                    right: '-120px',
-                    bottom: '-120px'
-                });
-            } else {
-                $('.upbtn').css({
-                    right: '-220px',
-                    bottom: '-220px'
-                });
-            }
-        });
-        $('.upbtn').on('click', function () {
-            $('html, body').animate({
-                scrollTop: 0
-            }, 500);
-            return false;
-        });
-    </script>
+    <script src="scripts/scrolltoptop.js"></script>
 </body>
 
 </html>

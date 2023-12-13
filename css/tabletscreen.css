@@ -1,0 +1,164 @@
+/*---@MEDIA SCREEN  1440px ---*/
+@media screen and (max-width: 1440px) {
+
+    .logotype1 {
+        display: none;
+    }
+    .logotype1:before {
+        top: 0px;
+        width: 45px;
+        height: 49px;
+    }
+
+    .logotype1, .logotype1:hover, .logotype1 div {
+    font-size: 23px;
+   }
+   .logotype1 b {
+    font-size: 30px;
+   }
+   .menu>li {
+        margin: 0; 
+        overflow: hidden;
+    }
+    .contacts-section-whatsapp > a {
+        font-size: 13px;
+    }
+
+    .contacts-section-whatsapp > svg {
+        margin-right: 10px;
+    }
+    .contacts-section__phone-text > a {
+        font-size: 13px;
+    }
+    
+    .header-nav {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .header-nav_menu>ul>li:not(:first-child) {
+        margin-left: 27.09px;
+        line-height: 13px;
+        padding-right: 10px;
+    }
+    .block-like {
+        margin-right: 30px;
+    }
+    .block-safety {
+        margin-right: 30px;
+    }
+    .header-banner__content>h1 {
+        font-size: 28px;
+    }
+
+    .block-like {
+        margin-left: 195px;
+    }
+
+    .block-comfort {
+        margin-right: 75px;
+    }
+  }
+  /*---@MEDIA SCREEN  1440px ---*/
+
+  /*--- @ MEDIA SCREEN 1024px ---*/
+  @media screen and (max-width: 1024px) {
+    .contacts_section_btn {
+        margin-left: 25px;
+        margin-right: 40px;
+    }
+
+    .header-nav_menu {
+        display: flex;
+        justify-content: center;
+        flex-grow: 0;
+    }
+
+    .header-nav_menu>ul {
+        display: flex;
+        margin-left: 30px;
+    }
+
+
+    .header-nav_menu>ul>li:not(:first-child) {
+        margin-left: 5px;
+    }
+
+    .header-nav {
+        background: #ffffff;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-nav_menu>ul>li>a {
+        margin-bottom: 5px;
+        font-size: 13px;
+        padding: 2px;
+    }
+    .header-banner__content {
+        margin-left: 74px;
+        margin-top: 140px;
+    }
+
+    .header-banner__content>h1 {
+        font-size: 25px;
+        margin-block-start: 33px;
+        margin-block-end: 30px;
+    }
+
+    .header-banner__content>p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .header-banner_gb-img {
+        height: 620px;
+    }
+
+    .control-img-frame {
+        width: 587px;
+    }
+    .main-bottom-desc_online-control-title > p {
+        font-size: 15px;
+        padding: 20px;
+    }
+    .block-like {
+        margin-left: 75px;
+    }
+
+    .block-comfort {
+        margin-right: 15px;
+    }
+    .cards-container-column {
+        width: 255px;
+        height: 225px;
+    }
+    .form-feedsback_bg {
+        margin-right: 140px;
+    }
+
+    hr {
+        position: static;
+    }
+    .parallax {
+        min-height: 258px;
+    }
+
+    .header-nav_contacts_section {
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .contacts-section__phone-text > svg {
+        margin-right: 7px;
+        width: 30px;
+    }
+
+    .contacts-section-whatsapp > svg {
+        margin-right: 7px;
+        width: 30px;
+    }
+    
+
+  }
+  /*--- @ MEDIA SCREEN 1024px ---*/
