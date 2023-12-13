@@ -179,7 +179,7 @@ header {
 }
 
 .header-nav_brand>a>span {
-    font-size: 11px;
+    font-size: 15px;
     line-height: 15px;
     text-transform: uppercase;
     color: #f24822;
@@ -2746,8 +2746,15 @@ hr:before {
     color: #fff;
 }
 
+.contacts-section-whatsapp:hover > a > svg path {
+    cursor: pointer;
+    fill: #0dc143;
+}
 
-
+.contacts-section__phone-text:hover > a > svg path {
+    cursor: pointer;
+    fill: #524e4e;
+}
 
 
 /*--- END of (Main section) ---*/
