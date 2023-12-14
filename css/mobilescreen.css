@@ -1,10 +1,24 @@
 @media screen and (max-width: 425px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .grid-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
     .contacts_section_btn {
         margin-left: 0px;
         margin-right: 0px;
     }
     .btn__call {
         padding: 13px 13px;
+    }
+    .btn-section_btn-calculate {
+        padding: 12px 12px 12px 12px;
+        font-size: 10px;
     }
 
     .header-nav {
@@ -48,7 +62,7 @@
         height: 410px;
     }
     .header-banner__content {
-        margin-left: 134px;
+        margin-left: 24px;
         margin-top: 20px
     }
     .header-banner__content>h1 {
@@ -58,24 +72,24 @@
         line-height: 34px;
     }
     .main-bottom-desc_online-control-title {
-        margin-left: 120px;
+        margin-left: 20px;
     }
 
     .control-img-frame {
         height: 304px;
-        margin-left: 124px;
+        margin-left: 24px;
         width: 497px;
     }
 
     .form-content {
-        margin-left: 124px;
+        margin-left: 24px;
     }
 
     .form-content_text {
         width: 497px;
         height: 131px;
         margin-bottom: 40px;
-        margin-left: 124px;
+        margin-left: 24px;
     }
 
     .inline-form {
@@ -119,7 +133,7 @@
 
     hr {
         margin: 0 auto;
-        margin-left: 140px;
+        margin-left: 40px;
     }
 
     .form-content-rules {
@@ -133,7 +147,7 @@
     }
 
     .block-like {
-        margin-left: 129px;
+        margin-left: 29px;
         margin-right: 40px;
         padding-right: 0px;
         margin-bottom: 20px;
@@ -142,7 +156,7 @@
     }
     
     .block-safety {
-        margin-left: 129px;
+        margin-left: 29px;
         margin-right: 40px;
         padding-right: 0px;
         margin-bottom: 20px;
@@ -151,7 +165,7 @@
     }
 
     .block-comfort {
-        margin-left: 129px;
+        margin-left: 29px;
         margin-right: 40px;
         padding-right: 0px;
         margin-bottom: 20px;
@@ -160,7 +174,7 @@
     }
 
     .cards-container {
-        padding-left: 129px;
+        padding-left: 29px;
     }
 
     .cards-container-column {
@@ -176,7 +190,7 @@
         justify-content: center;
         align-content: center;
         margin-bottom: 20px;
-        padding-left: 129px;
+        padding-left: 29px;
     }
 
     .view-services-information {
@@ -190,7 +204,7 @@
         background: #F4F5F6;
         flex-wrap: nowrap;
         align-content: center;
-        padding-left: 129px;
+        padding-left: 29px;
     }
 
     .view-services-information > span {
@@ -209,12 +223,12 @@
         justify-content: normal;
     }
     .form-footer {
-        margin-left: 129px;
+        margin-left: 29px;
     }
 
     .social-footer {
         margin-bottom: 20px;
-        margin-left: 99px;
+        margin-left: 29px;
     }
 
     .social > a > svg {
@@ -241,10 +255,10 @@
     }
 
     .footer-menu {
-        margin-left: 129px;
+        margin-left: 29px;
     }
 
     .copyright {
-        margin-left: 70px;
+        margin-left: 20px;
     }
 }
