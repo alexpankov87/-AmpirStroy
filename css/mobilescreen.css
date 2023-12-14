@@ -278,6 +278,38 @@
     .view-services-information >button {
         padding: 10px 26px 10px 26px;
     }
+
+    /*--- section about us ---*/
+    .header-banner__about_us {
+        font-size: 16px;
+    }
+    .header-banner_content__btn-section {
+        margin-top: 20px;
+    }
+    .title_about_us > h2 {
+        font-size: 16px;
+    }
+    .proff_command_text > p {
+        width: 470px;
+        padding-right: 80px;
+        padding-left: 20px;
+        font-size: 13px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        line-height: 15px;
+    }
+
+    .bottom_slogan {
+        width: 400px;
+        margin-bottom: 40px;
+        margin-left: 100px;
+    }
+
+    .header-banner_about_us {
+        height: 350px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -350,6 +382,34 @@
     .form-feedback-container-checkbox {
         margin-left: 70px;
         font-size: 12px;
+    }
+
+    /*-- section about us ---*/
+    .proff_command_text > p {
+        width: 375px;
+        line-height: 18px;
+    }
+
+    .title_about_us > h2 {
+        font-size: 15px;
+    }
+
+    .bottom_slogan {
+        width: 360px;
+        margin-left: 80px;
+    }
+    .footer-form-subscribe > label {
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    .social > a > svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-form-subscribe>input {
+        width: 328px;
     }
 }
 
@@ -439,5 +499,28 @@
         font-size: 18px;
         line-height: 30px;
         color: #ccc;
+    }
+
+    /*--- section about us ---*/
+
+    .header-banner__about_us {
+        line-height: 20px;
+    }
+
+    .title_about_us > h2 {
+        font-size: 16px;
+        width: 270px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .proff_command_text > p {
+        width: 345px;
+        line-height: 18px;
+    }
+
+    .bottom_slogan {
+        width: 340px;
+        margin-left: 80px;
     }
 }
