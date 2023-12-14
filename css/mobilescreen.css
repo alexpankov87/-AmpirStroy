@@ -20,6 +20,10 @@
         padding: 12px 12px 12px 12px;
         font-size: 10px;
     }
+    .btn-section_btn-submit-app {
+        padding: 12px 12px 12px 12px;
+        font-size: 10px;
+    }
 
     .header-nav {
         justify-content: space-between;
@@ -59,7 +63,7 @@
         margin-right: 10px;
     }
     .header-banner_gb-img {
-        height: 410px;
+        height: 480px;
     }
     .header-banner__content {
         margin-left: 24px;
@@ -72,13 +76,13 @@
         line-height: 34px;
     }
     .main-bottom-desc_online-control-title {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .control-img-frame {
-        height: 304px;
-        margin-left: 24px;
-        width: 497px;
+        height: 234px;
+        margin-left: 0px;
+        width: 427px;
     }
 
     .form-content {
@@ -86,10 +90,10 @@
     }
 
     .form-content_text {
-        width: 497px;
+        width: 425px;
         height: 131px;
-        margin-bottom: 40px;
-        margin-left: 24px;
+        margin-bottom: 30px;
+        margin-left: 0px;
     }
 
     .inline-form {
@@ -102,38 +106,37 @@
         flex-wrap: wrap;
     }
     .inline-form {
-        margin-left: 80px;
+        margin-left: 0px;
     }
 
     .input-form-float-name-label {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-bottom: 20px;
     }
 
     .input-form-float-phone-label {
-        margin-left: 30px;
+        margin-left: 0px;
     }
         
     .inline-form .input-form-float-name-label>input {
-        width: 421px;
+        width: 371px;
         margin-right: 0px;
     }
     .inline-form .input-form-float-phone-label > input {
-        width: 421px;
+        width: 371px;
         margin-right: 0px;
     }
 
     .inline-form>button {
-        padding: 20px 40px;
+        padding: 12px 29px;
         margin-top: 40px;
     }
 
     hr {
         margin: 0 auto;
-        margin-left: 40px;
     }
 
     .form-content-rules {
@@ -174,7 +177,7 @@
     }
 
     .cards-container {
-        padding-left: 29px;
+        padding-left: 0px;
     }
 
     .cards-container-column {
@@ -204,7 +207,7 @@
         background: #F4F5F6;
         flex-wrap: nowrap;
         align-content: center;
-        padding-left: 29px;
+        padding-left: 0px;
     }
 
     .view-services-information > span {
@@ -212,8 +215,19 @@
         margin-bottom: 20px;
     }
     .form-feedsback_bg {
-        margin-right: 20px;
+        margin-right: 0px;
         width: 480px;
+    }
+
+    .name-input>input {
+        width: 388px;
+    }
+    .phone-input>input {
+        width: 388px;
+    }
+
+    .email-input>input {
+        width: 398px;
     }
 
     .footer-row {
@@ -228,7 +242,7 @@
 
     .social-footer {
         margin-bottom: 20px;
-        margin-left: 29px;
+        margin-left: 0px;
     }
 
     .social > a > svg {
@@ -246,7 +260,7 @@
     }
 
     .footer-form-subscribe>input {
-        width: 425px;
+        width: 358px;
         margin-top: 16px;
     }
 
@@ -260,5 +274,8 @@
 
     .copyright {
         margin-left: 20px;
+    }
+    .view-services-information >button {
+        padding: 10px 26px 10px 26px;
     }
 }
