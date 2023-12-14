@@ -1,0 +1,250 @@
+@media screen and (max-width: 425px) {
+    .contacts_section_btn {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .btn__call {
+        padding: 13px 13px;
+    }
+
+    .header-nav {
+        justify-content: space-between;
+    }
+
+    .header-nav_contacts_section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        margin-right: 20px;
+    }
+    .contacts-section-whatsapp {
+        margin-right: 0px;
+    }
+    .contacts-section-whatsapp > a > svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contacts-section__phone-text {
+        display: none;
+    }
+    .contacts-section__phone-text > a > svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-button-container {
+        display: flex;
+        margin-left: 84px;
+    }
+
+    .contacts-section-whatsapp {
+        margin-right: 10px;
+    }
+    .header-banner_gb-img {
+        height: 410px;
+    }
+    .header-banner__content {
+        margin-left: 134px;
+        margin-top: 20px
+    }
+    .header-banner__content>h1 {
+        font-size: 18px;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        line-height: 34px;
+    }
+    .main-bottom-desc_online-control-title {
+        margin-left: 120px;
+    }
+
+    .control-img-frame {
+        height: 304px;
+        margin-left: 124px;
+        width: 497px;
+    }
+
+    .form-content {
+        margin-left: 124px;
+    }
+
+    .form-content_text {
+        width: 497px;
+        height: 131px;
+        margin-bottom: 40px;
+        margin-left: 124px;
+    }
+
+    .inline-form {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .inline-form {
+        margin-left: 80px;
+    }
+
+    .input-form-float-name-label {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .input-form-float-phone-label {
+        margin-left: 30px;
+    }
+        
+    .inline-form .input-form-float-name-label>input {
+        width: 421px;
+        margin-right: 0px;
+    }
+    .inline-form .input-form-float-phone-label > input {
+        width: 421px;
+        margin-right: 0px;
+    }
+
+    .inline-form>button {
+        padding: 20px 40px;
+        margin-top: 40px;
+    }
+
+    hr {
+        margin: 0 auto;
+        margin-left: 140px;
+    }
+
+    .form-content-rules {
+        display: flex;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .block-like {
+        margin-left: 129px;
+        margin-right: 40px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+        border-right: none;
+        border-bottom: 4px solid #9a9a9a;
+    }
+    
+    .block-safety {
+        margin-left: 129px;
+        margin-right: 40px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+        border-right: none;
+        border-bottom: 4px solid #9a9a9a;
+    }
+
+    .block-comfort {
+        margin-left: 129px;
+        margin-right: 40px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+        border-right: none;
+        border-bottom: 4px solid #9a9a9a;
+    }
+
+    .cards-container {
+        padding-left: 129px;
+    }
+
+    .cards-container-column {
+        width: 195px;
+        height: 195px;
+        margin-bottom: 20px;
+    }
+
+    .cards-container-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 20px;
+        padding-left: 129px;
+    }
+
+    .view-services-information {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding-bottom: 50px;
+        background: #F4F5F6;
+        flex-wrap: nowrap;
+        align-content: center;
+        padding-left: 129px;
+    }
+
+    .view-services-information > span {
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .form-feedsback_bg {
+        margin-right: 20px;
+        width: 480px;
+    }
+
+    .footer-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: normal;
+    }
+    .form-footer {
+        margin-left: 129px;
+    }
+
+    .social-footer {
+        margin-bottom: 20px;
+        margin-left: 99px;
+    }
+
+    .social > a > svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social > .whatsapp:hover > svg path {
+        fill: #0dc143;
+    }
+
+    .footer-form-subscribe > label {
+        font-size: 24px;
+        text-decoration: underline;
+    }
+
+    .footer-form-subscribe>input {
+        width: 425px;
+        margin-top: 16px;
+    }
+
+    .footer-form-subscribe > button {
+        margin-top: 20px;
+    }
+
+    .footer-menu {
+        margin-left: 129px;
+    }
+
+    .copyright {
+        margin-left: 70px;
+    }
+}
