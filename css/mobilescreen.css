@@ -352,3 +352,92 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 325px) {
+    .menu-button-container {
+        display: flex;
+        margin-left: 44px;
+    }
+    .header-nav_contacts_section {
+        flex-direction: column;
+    }
+    .header-banner__content {
+        margin-left: 10px;
+    }
+
+    .inline-form .input-form-float-name-label>input {
+        width: 301px;
+    }
+    .inline-form .input-form-float-phone-label > input {
+        width: 301px;
+    }
+
+    .inline-form>label:last-child {
+        margin-left: 20px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .form-subtitle>h3 {
+
+        font-size: 15px;
+        line-height: 26px;
+        padding-right: 42px;
+    }
+
+    .name-input>label {
+        margin-left: 119px;
+    }
+
+    .name-input>input {
+        width: 308px;
+        margin-left: 120px;
+    }
+    
+    .phone-input>label {
+        margin-left: 119px;
+    }
+    .phone-input>input {
+        width: 308px;
+        margin-left: 120px;
+    } 
+    
+    .email-input>label {
+        margin-left: 119px;
+    }
+    .email-input>input{
+        width: 308px;
+        margin-left: 120px;
+    }
+    .form-feedback-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 27px;
+    }
+    .form-feedback-container-checkbox {
+        margin-left: 120px;
+        font-size: 10px;
+    }
+
+    .social > a > svg {
+        width: 30px;
+        height: 40px;
+    }
+    .footer-form-subscribe > label {
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    .footer-form-subscribe>input {
+        width: 278px;
+        margin-top: 16px;
+    }
+
+    .adress > span {
+        font-size: 18px;
+        line-height: 30px;
+        color: #ccc;
+    }
+}

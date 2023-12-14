@@ -2532,6 +2532,23 @@ hr:before {
 .copyright > p {
     color: #ccc;
 }
+.adress .title-contacts {
+    text-decoration: underline;
+    font-weight: 900;
+    color: var(--color-bg);
+}
+
+.phone-number .title-contacts {
+    text-decoration: underline;
+    font-weight: 900;
+    color: var(--color-bg);
+}
+
+.email-adress .title-contacts {
+    text-decoration: underline;
+    font-weight: 900;
+    color: var(--color-bg);
+}
 
 .adress {
     margin-bottom: 10px;
