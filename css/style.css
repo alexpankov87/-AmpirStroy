@@ -1017,6 +1017,7 @@ header {
     align-items: center;
     flex-direction: column;
     box-shadow: 1px 1px 1px 1px #b7b3b366;
+    border-radius: 5px;
 }
 
 .cards-container-column > span{
@@ -1027,6 +1028,14 @@ header {
     margin-top: 10px;
     text-align: center;
 }
+
+.cards-container-column:hover  {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform .5s;
+  }
 
 .cards-button-cost {
     display: flex;
