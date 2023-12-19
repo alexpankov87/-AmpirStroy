@@ -258,11 +258,14 @@ header {
     padding: 13px 33px;
     cursor: pointer;
     border: none;
+    transition: transform .2s;
 }
 
-.btn__call:hover {
-    background: #f24822;
+.btn_href_link .btn__call:hover {
+    background: var(--color-bg);
     color: var(--color-bg-section);
+    transform: scale(1.2);
+
 }
 
 .header-banner {
@@ -2091,11 +2094,6 @@ header {
     margin-right: 90px;
 }
 
-
-.btn__call:hover {
-    background: #f24822;
-    color: var(--color-bg-section);
-}
 
 /*----*/
 .col-example_img-apartment {
