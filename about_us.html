@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tabletscreen.css">
@@ -70,9 +71,9 @@
                         <a href="tel:+77003794983" aria-label="phone-number" title="Позвонить по номеру">+7 700 379 4983</a>
                     </div>
                     <div class="contacts_section_btn">
-                        <button aria-label="Request-call" class="btn__call" type="submit">
-                        <a href="#form-bottom">Заказать звонок</a> 
-                        </button>
+                        <a href="#form-bottom">
+                           <button aria-label="Request-call" class="btn__call" type="submit"> Заказать звонок </button>
+                        </a> 
                     </div>
                 </article>
                 <!--navigation contacts section-->
@@ -88,9 +89,11 @@
                         начиная от проектирования и заканчивая сдачей готовых объектов.
                     </span>
                     <div class="header-banner_content__btn-section">
-                         <button type="submit" class="btn-section_btn">
-                            <a href="#form_bottom_about_us">Заказать звонок </a>
-                        </button>
+                        <a href="#form_bottom_about_us">
+                            <button type="submit" class="btn-section_btn">
+                                Заказать звонок 
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -166,6 +169,35 @@
                                 <span>"Ampir Stroy" - строительная компания,</span>  основанная в мае 2006 года. Своим успешным путем на строительном рынке, 
                                 компания "Ampir Stroy" стала известной благодаря высокому качеству предоставляемых услуг и профессионализму своих сотрудников.
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="license-block">
+                <div class="license-title">
+                    <h2>Сертификация</h2>
+                </div>
+                <div class="license-wr">
+                    <div class="license">
+                        <div>
+                            <a data-caption="Фото 1" data-fancybox="license-1" href="css/img/cert_KZ00105.jpg">
+                                <img src="css/img/cert_KZ00105.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div>
+                            <a data-caption="Фото 2" data-fancybox="license-1" href="css/img/cert_KZ00106.jpg">
+                                <img src="css/img/cert_KZ00106.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div>
+                            <a data-caption="Фото 3" data-fancybox="license-1" href="css/img/gsp1.jpeg">
+                                <img src="css/img/gsp1.jpeg" alt="" />
+                            </a>
+                        </div>
+                        <div>
+                            <a data-caption="Фото 4" data-fancybox="license-1" href="css/img/gsp2.jpeg">
+                                <img src="css/img/gsp2.jpeg" alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -333,7 +365,9 @@
             </nav>
         </footer>
     </section>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/jquery.fancybox.min.js"></script>
     <script src="scripts/scrolltoptop.js"></script>
 </body>
 
