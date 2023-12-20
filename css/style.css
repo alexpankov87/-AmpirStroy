@@ -2888,4 +2888,40 @@ hr:before {
     font-size: 28px;
 }
 
+/*-- 2GIS MAP ---*/
+.map-popup {
+    background: #FFF;
+    width: 300px;
+    padding: 20px;
+    color: #000;
+    border: 3px dashed var(--color-bg);
+    box-sizing: border-box;
+}
+
+.map-popup h2 {
+    margin: 0;
+    font-size: 22px;
+    color: var(--color-bg);
+}
+
+.map-icon {
+    visibility: visible !important;
+    display: inline !important;
+}
+
+.leaflet-popup-tip-container {
+    display: none !important;
+}
+
+.leaflet-popup-content {
+    margin: 0 !important;
+}
+
+.map {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #1e212c;
+}
+
+
 /*--- END of (Main section) ---*/
