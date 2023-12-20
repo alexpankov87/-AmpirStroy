@@ -2780,7 +2780,7 @@ hr:before {
 .license {
     box-sizing: border-box;
     width: 100%;
-    margin: 80px auto 0;
+    margin: 40px auto 0;
     min-height: 330px;
     position: relative;
 }
