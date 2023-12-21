@@ -304,6 +304,9 @@
         width: 400px;
         margin-bottom: 40px;
         margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .header-banner_about_us {

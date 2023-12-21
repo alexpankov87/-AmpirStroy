@@ -175,8 +175,9 @@ header {
 
 .header-nav_brand {
     flex-grow: 0;
-    margin-top: 37px;
-    margin-bottom: 36px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    margin-left: 40px;
 }
 
 .header-nav_brand>a>span {
@@ -2718,6 +2719,8 @@ hr:before {
     width: 720px;
     margin-bottom: 40px;
     margin-left: 100px;
+    display: flex;
+    flex-direction: row;
 }
 
 .bottom_slogan > p > span {
@@ -2765,6 +2768,25 @@ hr:before {
 .contacts-section__phone-text:hover > a > svg path {
     cursor: pointer;
     fill: #524e4e;
+}
+
+.logo-img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    transition: transform .2s;
+}
+
+.logo-img:hover {
+    transform: scale(1.2);
+}
+
+
+
+.bottom-logo-img {
+    width: 200px;
+    padding-right: 20px;
+    object-fit: contain;
 }
 
 /*---galerry --*/

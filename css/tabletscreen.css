@@ -76,7 +76,8 @@
 
     .header-nav_menu>ul {
         display: flex;
-        margin-left: 30px;
+        margin-left: 10px;
+        align-items: center;
     }
 
 
@@ -93,6 +94,7 @@
         margin-bottom: 5px;
         font-size: 13px;
         padding: 2px;
+        padding-right: 20px;
     }
     .header-banner__content {
         margin-left: 74px;
