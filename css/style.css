@@ -199,11 +199,18 @@ header {
 
 .header-nav_menu>ul {
     display: flex;
+    
 }
 
 .header-nav_menu>ul>li {
     display: flex;
+    transition: transform .2s;
 }
+
+.header-nav_menu>ul>li:hover {
+    transform: scale(1.2);
+}
+
 
 .header-nav_menu>ul>li:not(:first-child) {
     margin-left: 47.09px;
@@ -222,7 +229,7 @@ header {
 .header-nav_menu>ul>li>a:hover {
     font-weight: bold;
     text-decoration: underline;
-    color: var(--color-bg);
+    color: var(--color-bg); 
 }
 
 .header-nav_menu__link-active {
