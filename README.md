@@ -1,3 +1,3 @@
-### AmpirStroy - Landing.
+### AmpirStroy - Layout.
 ### Adaptive tablet and mobile screen.
-### [Demo Site](https://alexpankov87.github.io/-AmpirStroy/)
+### [Demo Layout](https://alexpankov87.github.io/-AmpirStroy/)
