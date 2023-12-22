@@ -2485,6 +2485,10 @@ hr:before {
     text-decoration: none;
 }
 
+.social-footer>.social>.whatsapp:hover >svg path {
+    fill: #0dc143;
+} 
+
 .form-footer {
     margin-left: 100px;
 }
@@ -2782,6 +2786,16 @@ hr:before {
 }
 
 
+.logo-marker {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform .2s;
+}
+
+.map-popup > div {
+    text-align: center;
+}
 
 .bottom-logo-img {
     width: 200px;

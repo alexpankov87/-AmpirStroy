@@ -12,5 +12,5 @@ DG.then(function () {
         className: 'map-icon',
         iconSize: [54, 54] 
     });          
-    DG.marker([50.064386, 72.966744], {icon: mapicon}).addTo(map).bindPopup('<div class="map-popup"><h2>AmpirStroy</h2><br/>проспект Республики 63/3<br/><br/><b>Телефон:+7 700 379 4983</b></div>');     
+    DG.marker([50.064386, 72.966744], {icon: mapicon}).addTo(map).bindPopup('<div class="map-popup"><div><img class="logo-marker" src="css/img/logo.png" alt="Строительная компания AmpirStroy" /></div><br/>проспект Республики 63/3<br/><b>(вход с торца здания)</b><br/><b>Телефон: +7 700 379 4983</b></div>');     
 });
