@@ -1023,6 +1023,7 @@ header {
     flex-direction: column;
     box-shadow: 1px 1px 1px 1px #b7b3b366;
     border-radius: 5px;
+    transition: transform .5s;
 }
 
 .cards-container-column > span{
@@ -1039,7 +1040,7 @@ header {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     cursor: pointer;
-    transition: transform .5s;
+    transform: scale(1.2);
   }
 
 .cards-button-cost {
