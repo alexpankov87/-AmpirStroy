@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var whatsappButton = document.querySelector(".whatsapp-button");
-    var whatsappLink = document.getElementById("whatsappLink");
+    let whatsappButton = document.querySelector(".whatsapp-button");
 
     window.addEventListener("scroll", function () {
         if (window.scrollY > 100) {
