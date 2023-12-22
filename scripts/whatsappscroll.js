@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
         if (window.scrollY > 100) {
             whatsappButton.style.left = "45px";
-            whatsappButton.style.bottom = "10px";
+            whatsappButton.style.bottom = "-8px";
         } else {
             whatsappButton.style.left = "-220px";
             whatsappButton.style.bottom = "-220px";
