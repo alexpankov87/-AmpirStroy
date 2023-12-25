@@ -303,6 +303,17 @@ header {
     align-items: center;
 }
 
+.header-banner_our_service {
+    background-image: url(img/bg_service.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
 .btn-section_btn-calculate {
     background: var(--color-bg);
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -3023,5 +3034,177 @@ hr:before {
     }
 
 }
+
+/*--- Our service ---*/
+
+.title_our__service {
+    text-align: center;
+    font-size: 24px;
+}
+
+.title_our__service > h2 {
+    color: var(--color-bg);
+    text-decoration: underline;
+}
+.card_building {
+    display: flex;
+    flex-direction: column;
+    width: 1230px;
+}
+
+.first-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid #b3a9a77d;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px #0000002e;
+}
+
+.img_service {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.img_service> img {
+    height: 320px;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.service_description .description-title > h3 {
+    text-align: center;
+    font-size: 22px;
+    color: var(--color-bg);
+}
+
+.description-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.description-title > svg {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-section-first {
+    text-align: left;
+}
+
+.btn-section-first .button_show_more {
+    background: #e3b87300;
+    border: 2px solid #f24822bf;
+    padding: 12px 60px;
+    color: var(--color-bg);
+    font-size: 16px;
+    font-weight: 900;
+    transition: transform .3s;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    transition: transform .3s;
+}
+
+.btn-section-first .button_show_more:hover{
+    color: #7c7777;
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid #7c7777;
+}
+
+.service_description > p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-block-start: 0;
+    margin-block-end: 0.7em;
+}
+
+.second-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid #b3a9a77d;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px #0000002e;
+    flex-direction: row-reverse;
+}
+
+.btn-section-second {
+    text-align: left;
+}
+
+.btn-section-second .button_show_more {
+    background: #e3b87300;
+    border: 2px solid #f24822bf;
+    padding: 12px 60px;
+    color: var(--color-bg);
+    font-size: 16px;
+    font-weight: 900;
+    transition: transform .3s;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    transition: transform .3s;
+}
+
+.btn-section-second .button_show_more:hover {
+    color: #7c7777;
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid #7c7777;
+}
+
+
+.third-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid #b3a9a77d;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px #0000002e;
+    flex-direction: row;
+}
+
+.btn-section-third {
+    text-align: left;
+}
+
+.btn-section-third .button_show_more {
+    background: #e3b87300;
+    border: 2px solid #f24822bf;
+    padding: 12px 60px;
+    color: var(--color-bg);
+    font-size: 16px;
+    font-weight: 900;
+    transition: transform .3s;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    transition: transform .3s;
+}
+
+.btn-section-third .button_show_more:hover {
+    color: #7c7777;
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid #7c7777;
+}
+
+
 
 /*--- END of (Main section) ---*/
