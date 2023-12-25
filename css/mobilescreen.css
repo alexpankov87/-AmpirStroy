@@ -313,6 +313,26 @@
         height: 350px;
     }
 
+    /*--- our service ---*/
+    .first-card {
+        flex-direction: column;
+    }
+
+    .second-card {
+        flex-direction: column;
+    }
+    
+    .card_building {
+        width: 415px;
+    }
+    .third-card {
+        flex-direction: column;
+    }
+
+    .img_service> img {
+        height: 280px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
