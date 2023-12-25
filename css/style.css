@@ -1029,6 +1029,9 @@ header {
     align-content: center;
     margin-bottom: 20px;
 }
+.cards-container-row > a {
+    text-decoration: none;
+}
 
 .cards-container-column {
     margin-right: 30px;
