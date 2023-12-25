@@ -2937,6 +2937,8 @@ hr:before {
 }
 .license-block {
     background: #eee;
+    margin-bottom: 30px;
+    box-shadow: 1px 5px 6px 2px #0000004a;
 }   
 
 .license-title > h2 {
