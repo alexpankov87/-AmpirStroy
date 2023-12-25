@@ -333,6 +333,10 @@
         height: 280px;
     }
 
+    .header-banner_our_service {
+        height: 400px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
