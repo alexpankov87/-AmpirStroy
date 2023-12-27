@@ -2985,6 +2985,10 @@ hr:before {
 }
 
 /*--- whatsapp up button call ---*/
+.fancybox-button {
+    background:  var(--color-bg) !important;
+}
+
 
 .whatsapp-button {
     position: fixed;
