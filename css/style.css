@@ -2825,6 +2825,19 @@ hr:before {
     object-fit: contain;
 }
 
+.logo-img-index {
+    width: 200px;
+    padding-right: 20px;
+    object-fit: contain;
+}
+
+.span-hide {
+    display: none;
+}
+
+.span-show {
+    display: block;
+}
 /*---galerry --*/
 
 .license-wr {
