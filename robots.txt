@@ -1,2 +1,25 @@
+Sitemap: https://www.ampir-stroi.kz/sitemap.xml
+User-agent: Googlebot-Mobile
+Allow: https://www.ampir-stroi.kz/index.html
+
+User-agent: Googlebot
+Allow: https://www.ampir-stroi.kz/index.html
+
+User-agent: AdsBot-Google
+Allow: https://www.ampir-stroi.kz/index.html
+
+User-agent: YandexBot
+Allow: https://www.ampir-stroi.kz/index.html
+
+User-agent: DuckDuckBot
+Allow: https://www.ampir-stroi.kz/index.html
+
+User-agent: LinkedInBot
+Allow: https://www.ampir-stroi.kz/index.html
+
+User-agent: facebookexternalhit
+Allow: https://www.ampir-stroi.kz/index.html
+
 User-agent: *
-Disallow:
+Allow: https://www.ampir-stroi.kz/sitemap.xml
+Allow: 
