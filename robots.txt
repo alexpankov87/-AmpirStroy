@@ -1,9 +1,16 @@
+
 User-agent: *
-Host: 
-Disallow: /cgi-bin
-Host: www.ampir-stroi.kz
-Host: ampir-stroi.kz
 Sitemap: https://www.ampir-stroi.kz/sitemap.xml
+Disallow: /css/img
+
 User-agent: Yandex
-User-agent: Googlebot
+Allow: /
+Sitemap: https://www.ampir-stroi.kz/sitemap.xml
+
 User-agent: Googlebot-Mobile
+Allow: /
+Sitemap: https://www.ampir-stroi.kz/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Sitemap: https://www.ampir-stroi.kz/sitemap.xml
