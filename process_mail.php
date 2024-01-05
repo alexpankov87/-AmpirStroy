@@ -8,9 +8,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = htmlspecialchars($_POST["feedback-phone"]);
     $email = htmlspecialchars($_POST["feedback-email"]);
 
+    $source_page = isset($_POST["source_page"]) ? htmlspecialchars($_POST["source_page"]) : "Unknown Page";
+
     $from_email = "info@ampir-stroi.kz"; 
     $to_email = "admin@ampir-stroi.kz"; 
     $subject = 'Новая заявка с формы';
+
     $message = "
         <html>
         <head>
@@ -20,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p><strong>Имя:</strong> $name</p>
             <p><strong>Телефон:</strong> $phone</p>
             <p><strong>E-mail:</strong> $email</p>
+            <p><strong>Отправлено со страницы:</strong> $source_page</p>
         </body>
         </html>
     ";
