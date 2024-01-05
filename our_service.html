@@ -347,7 +347,7 @@
                         </label>
                         <div class="form-feedback-btn">
                             <input type="hidden" name="source_page" value="Наши услуги">
-                            <button type="button" onclick="submitForm()">
+                            <button type="button" onclick="submitForm('feedback-form')">
                                 Отправить
                             </button>
                         </div>
@@ -458,8 +458,8 @@
     <script src="scripts/scrolltoptop.js"></script>
     <script src="scripts/whatsappscroll.js"></script>
     <script>
-        function submitForm() {
-            let form = document.getElementById("feedback-form");
+        function submitForm(formId) {
+            let form = document.getElementById(formId);
 
             if (!form.checkValidity()) {
 
