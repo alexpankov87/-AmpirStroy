@@ -7,11 +7,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars($_POST["feedback-name"]);
     $phone = htmlspecialchars($_POST["feedback-phone"]);
     $email = htmlspecialchars($_POST["feedback-email"]);
-    
-   
-    // $checkbox = htmlspecialchars($_POST["feedback-checkbox"]);
 
-   
+    $from_email = "info@ampir-stroi.kz"; 
+    $to_email = "admin@ampir-stroi.kz"; 
     $subject = 'Новая заявка с формы';
     $message = "
         <html>
@@ -26,24 +24,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </html>
     ";
 
-    
-    $headers = "From: $email\r\n";
+    $headers = "From: $from_email\r\n";
     $headers .= "Content-type: text/html; charset=utf-8\r\n";
 
-    
-    $to = "admin@ampir-stroi.kz"; 
-    if (mail($to, $subject, $message, $headers)) {
-       
+    if (mail($to_email, $subject, $message, $headers)) {
         header("HTTP/1.1 200 OK");
         echo json_encode(["status" => "success"]);
-    
     } else {
-       
         header("HTTP/1.1 500 Internal Server Error");
         echo json_encode(["status" => "error", "message" => "Произошла ошибка при отправке формы. Пожалуйста, попробуйте позже."]);
     }
 } else {
-   
     header("HTTP/1.1 400 Bad Request");
     echo json_encode(["status" => "error", "message" => "Неверный метод запроса"]);
 }
