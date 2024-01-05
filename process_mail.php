@@ -6,27 +6,32 @@ header("Access-Control-Allow-Headers: Content-Type");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars($_POST["feedback-name"]);
     $phone = htmlspecialchars($_POST["feedback-phone"]);
-    $email = htmlspecialchars($_POST["feedback-email"]);
+    
+
+    $email = isset($_POST["feedback-email"]) ? htmlspecialchars($_POST["feedback-email"]) : '';
 
     $source_page = isset($_POST["source_page"]) ? htmlspecialchars($_POST["source_page"]) : "Unknown Page";
+
+    $agreed = isset($_POST["feedback-checkbox"]) ? true : false;
+
+    if (!$name || !$phone || !$agreed) {
+        header("HTTP/1.1 400 Bad Request");
+        echo json_encode(["status" => "error", "message" => "Заполните все обязательные поля и согласитесь предоставить персональные данные."]);
+        exit;
+    }
 
     $from_email = "info@ampir-stroi.kz"; 
     $to_email = "admin@ampir-stroi.kz"; 
     $subject = 'Новая заявка с формы';
 
-    $message = "
-        <html>
-        <head>
-            <title>$subject</title>
-        </head>
-        <body>
-            <p><strong>Имя:</strong> $name</p>
-            <p><strong>Телефон:</strong> $phone</p>
-            <p><strong>E-mail:</strong> $email</p>
-            <p><strong>Отправлено со страницы:</strong> $source_page</p>
-        </body>
-        </html>
-    ";
+    $message = "<html><head><title>$subject</title></head><body>";
+    $message .= "<p><strong>Имя:</strong> $name</p>";
+    $message .= "<p><strong>Телефон:</strong> $phone</p>";
+    if ($email) {
+        $message .= "<p><strong>E-mail:</strong> $email</p>";
+    }
+    $message .= "<p><strong>Отправлено со страницы:</strong> $source_page</p>";
+    $message .= "</body></html>";
 
     $headers = "From: $from_email\r\n";
     $headers .= "Content-type: text/html; charset=utf-8\r\n";
