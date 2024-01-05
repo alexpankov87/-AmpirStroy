@@ -22,7 +22,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p><strong>Имя:</strong> $name</p>
             <p><strong>Телефон:</strong> $phone</p>
             <p><strong>E-mail:</strong> $email</p>
-            <!-- Добавьте здесь остальные поля формы -->
         </body>
         </html>
     ";
@@ -32,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "Content-type: text/html; charset=utf-8\r\n";
 
     
-    $to = "deadwalkingday@gmail.com"; 
+    $to = "admin@ampir-stroi.kz"; 
     if (mail($to, $subject, $message, $headers)) {
        
         header("HTTP/1.1 200 OK");
