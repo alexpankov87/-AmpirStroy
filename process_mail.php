@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST["feedback-email"]);
 
     $from_email = "info@ampir-stroi.kz"; 
-    $to_email = "admin@ampir-stroi.kz"; 
+    $to_email = "deadwalkingday@gmail.com"; 
     $subject = 'Новая заявка с формы';
     $message = "
         <html>
