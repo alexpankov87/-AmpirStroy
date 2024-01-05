@@ -403,6 +403,7 @@
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="scripts/jquery.fancybox.min.js"></script>
     <script src="scripts/scrolltoptop.js"></script>
@@ -468,6 +469,18 @@
             xhr.send(new URLSearchParams(formData));
         }
     </script>
+
+    <script>
+         $(document).ready(function () {
+                $('#feedback-phone').inputmask({
+                    mask: '+7 (999) 999-99-99',
+                    showMaskOnHover: true,
+                    showMaskOnFocus: false,
+                    placeholder: '_',
+                });
+            });    
+    </script>
+
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {

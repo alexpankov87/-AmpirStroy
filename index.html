@@ -145,7 +145,7 @@
                     </div>
                     <div class="input-form-float-phone-label">
                         <label for="form-phone">Телефон</label>
-                        <input type="text" required name="feedback-phone" id="form-phone" placeholder="Ваш номер телефона" pattern="(\+?\d{11})?">
+                        <input type="text" required name="feedback-phone" id="form-phone" placeholder="Ваш номер телефона">
                     </div>
                     <input type="hidden" name="source_page" value="Главная">
                     <button type="button" onclick="submitForm('form-middle')">Отправить</button>
@@ -513,6 +513,12 @@
                 placeholder: '_',
             });
             
+        $('#form-phone').inputmask({
+                mask: '+7 (999) 999-99-99',
+                showMaskOnHover: true,
+                showMaskOnFocus: false,
+                placeholder: '_',
+            });    
         });
     </script>
 
