@@ -136,8 +136,8 @@
                     </p>
                 </div>
             </article>
-            <article class="form-container" id="form-middle">
-                <form action="/process_mail.php" method="post" class="inline-form">
+            <article class="form-container">
+                <form action="/process_mail.php" method="post" class="inline-form" id="form-middle">
                     <div class="input-form-float-name-label">
                         <label for="form-name">Ф.И.О</label>
                         <input type="text" required name="feedback-name" id="form-name" placeholder="Введите ваши данные">
@@ -147,7 +147,7 @@
                         <input type="text" required name="feedback-phone" id="form-phone" placeholder="Ваш номер телефона" pattern="(\+?\d{11})?">
                     </div>
                     <input type="hidden" name="source_page" value="Главная">
-                    <button type="button" onclick="submitForm()">Отправить</button>
+                    <button type="button" onclick="submitForm('form-middle')">Отправить</button>
                     <div class="empty-string"></div>
                     <label class="container-checkbox" aria-label="Agree">
                         <input type="checkbox" checked="checked" name="feedback-checkbox">
@@ -440,8 +440,8 @@
     <script src="scripts/scrolltoptop.js"></script>
     <script src="scripts/whatsappscroll.js"></script>
     <script>
-        function submitForm() {
-            let form = document.getElementById("feedback-form");
+        function submitForm(formId) {
+            let form = document.getElementById(formId);
 
             if (!form.checkValidity()) {
                
