@@ -137,26 +137,24 @@
                 </div>
             </article>
             <article class="form-container" id="form-middle">
-                <form action="" method="post" class="inline-form">
+                <form action="/process_mail.php" method="post" class="inline-form">
                     <div class="input-form-float-name-label">
                         <label for="form-name">Ф.И.О</label>
-                        <input type="text" required name="name" id="form-name" placeholder="Введите ваши данные">
+                        <input type="text" required name="feedback-name" id="form-name" placeholder="Введите ваши данные">
                     </div>
                     <div class="input-form-float-phone-label">
                         <label for="form-phone">Телефон</label>
-                        <input type="text" required  name="Phone" id="form-phone" placeholder="Ваш номер телефона">
+                        <input type="text" required name="feedback-phone" id="form-phone" placeholder="Ваш номер телефона" pattern="(\+?\d{11})?">
                     </div>
-                    <button type="submit">Отправить</button>
+                    <button type="button" onclick="submitForm()">Отправить</button>
                     <div class="empty-string"></div>
                     <label class="container-checkbox" aria-label="Agree">
-                        <input type="checkbox" checked="checked" name="checkbox">
+                        <input type="checkbox" checked="checked" name="feedback-checkbox">
                         <span class="checkmark"></span>
                         Согласен предоставить персональные данные
                     </label>
                 </form>
-                
             </article>
-            
             <hr>
             <article class="form-content-block">
                 <div class="main-bottom-desc_online-control-title" id="our_mission">
