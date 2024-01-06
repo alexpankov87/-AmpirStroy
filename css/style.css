@@ -2771,11 +2771,13 @@ hr:before {
     line-height: 15px;
     color: var(--color-bg-section);
     font-weight: 900;
+    transition: 0.5s;
 }
 
 .btn-section_btn:hover {
     background: var(--color-bg);
     color: #ffffff;
+    transform: scale(1.1);
 }
 
 .btn-section_btn > a {
