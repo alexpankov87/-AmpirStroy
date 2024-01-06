@@ -141,7 +141,7 @@
                 <form action="/process_mail.php" method="post" class="inline-form" id="form-middle">
                     <div class="input-form-float-name-label">
                         <label for="form-name">Ф.И.О</label>
-                        <input type="text" required name="feedback-name" id="form-name" placeholder="Введите ваши данные" pattern="[A-Za-zА-Яа-яЁё\s]+">
+                        <input type="text" required name="feedback-name" id="form-name" placeholder="Введите ваши данные" pattern="[A-Za-zА-Яа-яЁё\s]+" maxlength="40">
                     </div>
                     <div class="input-form-float-phone-label">
                         <label for="form-phone">Телефон</label>
@@ -316,9 +316,10 @@
                         <h3>Быстрый способ обсудить детали</h3>
                     </div>
                     <form action="/process_mail.php" method="post" class="form-feedback" id="feedback-form">
-                        <div class="name-input">
+                        <div onclick="fieldPopup()" class="name-input popup">
                             <label for="feedback-name">Имя:</label>
-                            <input required type="text" id="feedback-name" name="feedback-name" placeholder="Введите ваши данные" pattern="[A-Za-zА-Яа-яЁё\s]+">
+                            <span class="popuptext" id="myPopup">Максимальное кол-во введённых символов 40</span>
+                            <input required type="text" id="feedback-name" name="feedback-name" placeholder="Введите ваши данные" pattern="[A-Za-zА-Яа-яЁё\s]+" maxlength="40">
                         </div>
                         <div class="phone-input">
                             <label for="feedback-phone">Телефон:</label>
@@ -518,10 +519,16 @@
                 showMaskOnHover: true,
                 showMaskOnFocus: false,
                 placeholder: '_',
-            });    
+            });
+              
         });
     </script>
-
+    <script>
+    function fieldPopup() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {
