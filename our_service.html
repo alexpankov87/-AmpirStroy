@@ -330,7 +330,7 @@
                     <form action="/process_mail.php" method="post" class="form-feedback" id="feedback-form">
                         <div class="name-input">
                             <label for="feedback-name">Имя:</label>
-                            <input required type="text" id="feedback-name" name="feedback-name" placeholder="Введите ваши данные" pattern="[A-Za-zА-Яа-яЁё\s]+">
+                            <input required type="text" id="feedback-name" name="feedback-name" placeholder="Введите ваши данные" pattern="[A-Za-zА-Яа-яЁё\s]+" maxlength="40">
                         </div>
                         <div class="phone-input">
                             <label for="feedback-phone">Телефон:</label>
@@ -434,7 +434,7 @@
                                 <a href="our_service.html" title="Наши услуги">Наши услуги</a>
                             </li>
                             <li>
-                                <a href="#">Наша миссия</a>
+                                <a href="#">Наши преимущества</a>
                             </li>
                         </ul>
                     </div>
