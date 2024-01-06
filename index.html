@@ -316,9 +316,8 @@
                         <h3>Быстрый способ обсудить детали</h3>
                     </div>
                     <form action="/process_mail.php" method="post" class="form-feedback" id="feedback-form">
-                        <div onclick="fieldPopup()" class="name-input popup">
+                        <div class="name-input">
                             <label for="feedback-name">Имя:</label>
-                            <span class="popuptext" id="myPopup">Максимальное кол-во введённых символов 40</span>
                             <input required type="text" id="feedback-name" name="feedback-name" placeholder="Введите ваши данные" pattern="[A-Za-zА-Яа-яЁё\s]+" maxlength="40">
                         </div>
                         <div class="phone-input">
@@ -523,12 +522,7 @@
               
         });
     </script>
-    <script>
-    function fieldPopup() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-    </script>
+
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {
