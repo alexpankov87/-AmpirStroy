@@ -3237,9 +3237,85 @@ hr:before {
     font-weight: 900;
 }
 
+/*----- Snow section ------*/
+
+.clean_snow_service > h2 {
+    text-align: center;
+    color: var(--color-bg);
+    text-decoration: underline;
+}
+
+.clean_snow_service> h3 {
+    text-align: center;
+    color: var(--color-bg);
+    font-weight: 900;
+}
+
+.btn-snow-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.img_snow_work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first_img > img {
+    width: 400px;
+    object-fit: contain;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 11px 15px 2px #817979bd;
+    transition: 0.5s;
+}
+
+.first_img>img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.second_img > img {
+    width: 400px;
+    object-fit: contain;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 11px 15px 2px #817979bd;
+    transition: 0.5s;
+}
+
+.second_img>img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-snow-section > span {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #605e5e;
+    display: none;
+}
 
 
+.service_link_clean_snow {
+    margin-top: 30px;
+    text-align: center;
+}
 
+.service_link_clean_snow > a > button {
+    border: none;
+    font-size: 26px;
+    color: var(--color-bg);
+    background: #6495ed00;
+    transition: 0.5s;
+}
 
+.service_link_clean_snow>a:hover>button {
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 /*--- END of (Main section) ---*/

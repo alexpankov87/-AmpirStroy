@@ -327,7 +327,7 @@
     }
     
     .card_building {
-        width: 415px;
+        width: 435px;
     }
     .third-card {
         flex-direction: column;
@@ -346,6 +346,10 @@
 
     .span-show {
         display: none;
+    }
+
+    .img_snow_work{
+        flex-direction: column;
     }
 }
 
@@ -447,6 +451,26 @@
 
     .footer-form-subscribe>input {
         width: 328px;
+    }
+    
+    .btn-section-first .button_show_more {
+        margin-left: 35px;
+    }
+
+    .btn-section-second .button_show_more {
+        margin-left: 35px;
+    }
+
+    .btn-section-third .button_show_more {
+        margin-left: 35px;
+    }
+
+    .first_img > img {
+        width: 350px;
+    }
+    
+    .second_img>img {
+        width: 350px;
     }
 }
 
