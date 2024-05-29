@@ -25,6 +25,39 @@
 <body>
     <section class="grid-section">
         <header>
+            <!--lang section-->
+            <div class="lang-section">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <svg fill="#000" width="12px" height="12px" viewBox="-6.5 0 32 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>dropdown</title>
+                                <path
+                                    d="M18.813 11.406l-7.906 9.906c-0.75 0.906-1.906 0.906-2.625 0l-7.906-9.906c-0.75-0.938-0.375-1.656 0.781-1.656h16.875c1.188 0 1.531 0.719 0.781 1.656z">
+                                </path>
+                            </g>
+                        </svg>
+                        <span data-lang-kz="Тілді таңдау" data-lang-ru="Выбор языка" class="lang-text"></span>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="lang-display">
+                            <button class="btn-lang" onclick="setLanguage('kz')">
+                                <img src="images/flag_kz.svg" alt="Flag Kazakhstan">
+                                Қазақ тілі
+                            </button>
+            
+                            <button class="btn-lang" onclick="setLanguage('ru')">
+                                <img src="images/flag_ru.svg" alt="Flag Russian">
+                                Русский язык
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--lang section-->
             <nav class="header-nav container animated bounceInDown">
                 <!--navigation logo-brand section-->
                 <article class="header-nav_brand">
@@ -455,6 +488,8 @@
     <script src="scripts/jquery.fancybox.min.js"></script>
     <script src="scripts/scrolltoptop.js"></script>
     <script src="scripts/whatsappscroll.js"></script>
+    <script src="scripts/lang_change.js"></script>
+    <script src="scripts/apply_lang.js"></script>
     <script>
         function submitForm(formId) {
             let form = document.getElementById(formId);
